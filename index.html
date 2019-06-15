@@ -280,7 +280,26 @@
 				</div>
 				<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.9s">
 
-					<form method="post" name="contactform" action="contact-form-handler.php">
+						<form method="POST" name="contactform" action="contact-form-handler.php"> 
+								<p>
+								<label for='name'>Your Name:</label> <br>
+								<input type="text" name="name">
+								</p>
+								<p>
+								<label for='email'>Email Address:</label> <br>
+								<input type="text" name="email"> <br>
+								</p>
+								<p>
+								<label for='message'>Message:</label> <br>
+								<textarea name="message"></textarea>
+								</p>
+								<input type="submit" value="Submit"><br>
+								</form>
+								
+
+
+
+					<!-- <form method="post" name="contactform" action="contact-form-handler.php">
 						<label>NAME</label>
 						<input name="name" type="text" class="form-control" id="fullname">
 
@@ -291,7 +310,7 @@
 						<textarea name="message" rows="4" class="form-control" id="message"></textarea>
 
 						<input type="submit" class="form-control" value="Submit">
-					</form>
+					</form> -->
 				</div>
 
 				<script language="JavaScript">
